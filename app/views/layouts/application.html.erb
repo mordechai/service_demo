@@ -14,12 +14,14 @@
       <header>
         <%= render 'layouts/navigation' %>
         <%= render 'layouts/messages' %>
-      </header>
+	<%= render 'layouts/header' %>
+	</header>
       <div id="main" role="main">
         <%= yield %>
       </div>
       <footer>
-      </footer>
+     <%= render 'layouts/footer' %>  
+    </footer>
     </div> <!--! end of #container -->
   </body>
 </html>
